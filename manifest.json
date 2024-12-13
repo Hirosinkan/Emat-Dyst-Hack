@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Hirosinkan Auto Solver Extension",
+    "version": "1.0",
+    "description": "Automatically solves math problems on contera.dk.",
+    "author": "Hirosinkan",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://contera.dk/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    }
+  }
+  
